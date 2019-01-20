@@ -31,7 +31,7 @@ public class PetClinicTest {
 		File("D:\\dev\\archive\\tomcat\\geckodriver-v0.23.0-win64\\geckodriver.exe");
 		System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
 		driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(300,TimeUnit.SECONDS);
 	}
 
 	@AfterTest
