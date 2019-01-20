@@ -19,6 +19,7 @@ public class PetClinicTest {
 		// application is deployed
 		driver.get("http://localhost:8181/petclinic/");
 		String title = driver.getTitle();
+		System.out.println(title);
 		Assert.assertTrue(title.contains("spring"));
 	}
 
