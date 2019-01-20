@@ -19,7 +19,7 @@ public class PetClinicTest {
 		// application is deployed
 		driver.get("http://localhost:8181/petclinic/");
 		String title = driver.getTitle();
-		Assert.assertTrue(title.contains("PetClinic :: a Spring Framework demonstration"));
+		Assert.assertTrue(title.contains("spring"));
 	}
 
 	@BeforeTest
