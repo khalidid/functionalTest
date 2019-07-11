@@ -28,7 +28,7 @@ public class PetClinicTest {
 		File file = new
 		// We have used Firefox for testing; change this driver based on
 		// equirements and location too
-		File("D:\\dev\\archive\\tomcat\\geckodriver-v0.23.0-win64\\geckodriver.exe");
+		File("E:\docs\devops\geckodriver-v0.24.0-win64");
 		System.setProperty("webdriver.gecko.driver", file.getAbsolutePath());
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(300,TimeUnit.SECONDS);
