@@ -17,7 +17,7 @@ public class PetClinicTest {
 	public void testPetClinic() {
 		// Change the URL based on the location where Tomcat is installed and
 		// application is deployed
-		driver.get("http://localhost:8181/petclinic/");
+		driver.get("http://localhost:8081/petclinic/");
 		String title = driver.getTitle();
 		System.out.println(title);
 		Assert.assertTrue(title.contains("spring"));
